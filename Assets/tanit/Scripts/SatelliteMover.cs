@@ -11,7 +11,7 @@ public class SatelliteMover : MonoBehaviour
 	
 	void Update () 
     {
-        //transform.Translate(speed.x * Time.deltaTime, 0.0f,
-        //                    speed.z * Time.deltaTime);	
+        transform.Translate(speed.x * Time.deltaTime, speed.y * Time.deltaTime,
+                            speed.z * Time.deltaTime);	
 	}
 }
