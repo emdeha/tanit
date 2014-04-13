@@ -75,9 +75,11 @@ public class DataReceiver : MonoBehaviour
                 }
 
                 transform.position = satellites[currentSatelliteIndex].position;
+                Vector3 pos = transform.position;
+                Debug.Log("pos: " + pos.x + " " + pos.y + " " + pos.z);
                 transform.parent = satellites[currentSatelliteIndex];
 
-                Invoke("StartNewDownload", 60);
+                Invoke("StartNewDownload", 10);
             }
             else
             {
