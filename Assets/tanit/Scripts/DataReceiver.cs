@@ -9,6 +9,7 @@ public class DataReceiver : MonoBehaviour
     public Vector3 earthScale;
     public GameObject sat;
     public Controller m_leapController;
+    public int zoomCoef = 20;
 
     private WWW satelliteData;
     private GameObject currentSatellite;
@@ -121,6 +122,14 @@ public class DataReceiver : MonoBehaviour
         {
             Debug.Log("Changing mode via 'a'");
             SwitchMode();
+        }
+        if (Input.GetKey("="))
+        {
+            camera.fieldOfView += Time.deltaTime * zoomCoef;
+        }
+        else if (Input.GetKey("-"))
+        {
+            camera.fieldOfView -= Time.deltaTime * zoomCoef;
         }
     }
 
