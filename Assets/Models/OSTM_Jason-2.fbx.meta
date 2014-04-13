@@ -1,0 +1,241 @@
+fileFormatVersion: 2
+guid: 5706602b696fdf94692601358824709b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: OSTM-Jason2_Layered_016 [(unnamed)]
+    100002: OSTM-Jason2_Layered_016 [Layer10]
+    100004: OSTM-Jason2_Layered_016 [Layer11]
+    100006: OSTM-Jason2_Layered_016 [Layer12]
+    100008: OSTM-Jason2_Layered_016 [Layer13]
+    100010: OSTM-Jason2_Layered_016 [Layer14]
+    100012: OSTM-Jason2_Layered_016 [Layer15]
+    100014: OSTM-Jason2_Layered_016 [Layer16]
+    100016: OSTM-Jason2_Layered_016 [Layer17]
+    100018: OSTM-Jason2_Layered_016 [Layer18]
+    100020: OSTM-Jason2_Layered_016 [Layer19]
+    100022: OSTM-Jason2_Layered_016 [Layer20]
+    100024: OSTM-Jason2_Layered_016 [Layer21]
+    100026: OSTM-Jason2_Layered_016 [Layer22]
+    100028: OSTM-Jason2_Layered_016 [Layer23]
+    100030: OSTM-Jason2_Layered_016 [Layer24]
+    100032: OSTM-Jason2_Layered_016 [Layer25]
+    100034: OSTM-Jason2_Layered_016 [Layer26]
+    100036: OSTM-Jason2_Layered_016 [Layer27]
+    100038: OSTM-Jason2_Layered_016 [Layer28]
+    100040: OSTM-Jason2_Layered_016 [Layer29]
+    100042: OSTM-Jason2_Layered_016 [Layer2]
+    100044: OSTM-Jason2_Layered_016 [Layer30]
+    100046: OSTM-Jason2_Layered_016 [Layer31]
+    100048: OSTM-Jason2_Layered_016 [Layer32]
+    100050: OSTM-Jason2_Layered_016 [Layer33]
+    100052: OSTM-Jason2_Layered_016 [Layer34]
+    100054: OSTM-Jason2_Layered_016 [Layer35]
+    100056: OSTM-Jason2_Layered_016 [Layer36]
+    100058: OSTM-Jason2_Layered_016 [Layer3]
+    100060: OSTM-Jason2_Layered_016 [Layer4]
+    100062: OSTM-Jason2_Layered_016 [Layer5]
+    100064: OSTM-Jason2_Layered_016 [Layer6]
+    100066: OSTM-Jason2_Layered_016 [Layer7]
+    100068: OSTM-Jason2_Layered_016 [Layer8]
+    100070: OSTM-Jason2_Layered_016 [Layer9]
+    100072: //RootNode
+    400000: OSTM-Jason2_Layered_016 [(unnamed)]
+    400002: OSTM-Jason2_Layered_016 [Layer10]
+    400004: OSTM-Jason2_Layered_016 [Layer11]
+    400006: OSTM-Jason2_Layered_016 [Layer12]
+    400008: OSTM-Jason2_Layered_016 [Layer13]
+    400010: OSTM-Jason2_Layered_016 [Layer14]
+    400012: OSTM-Jason2_Layered_016 [Layer15]
+    400014: OSTM-Jason2_Layered_016 [Layer16]
+    400016: OSTM-Jason2_Layered_016 [Layer17]
+    400018: OSTM-Jason2_Layered_016 [Layer18]
+    400020: OSTM-Jason2_Layered_016 [Layer19]
+    400022: OSTM-Jason2_Layered_016 [Layer20]
+    400024: OSTM-Jason2_Layered_016 [Layer21]
+    400026: OSTM-Jason2_Layered_016 [Layer22]
+    400028: OSTM-Jason2_Layered_016 [Layer23]
+    400030: OSTM-Jason2_Layered_016 [Layer24]
+    400032: OSTM-Jason2_Layered_016 [Layer25]
+    400034: OSTM-Jason2_Layered_016 [Layer26]
+    400036: OSTM-Jason2_Layered_016 [Layer27]
+    400038: OSTM-Jason2_Layered_016 [Layer28]
+    400040: OSTM-Jason2_Layered_016 [Layer29]
+    400042: OSTM-Jason2_Layered_016 [Layer2]
+    400044: OSTM-Jason2_Layered_016 [Layer30]
+    400046: OSTM-Jason2_Layered_016 [Layer31]
+    400048: OSTM-Jason2_Layered_016 [Layer32]
+    400050: OSTM-Jason2_Layered_016 [Layer33]
+    400052: OSTM-Jason2_Layered_016 [Layer34]
+    400054: OSTM-Jason2_Layered_016 [Layer35]
+    400056: OSTM-Jason2_Layered_016 [Layer36]
+    400058: OSTM-Jason2_Layered_016 [Layer3]
+    400060: OSTM-Jason2_Layered_016 [Layer4]
+    400062: OSTM-Jason2_Layered_016 [Layer5]
+    400064: OSTM-Jason2_Layered_016 [Layer6]
+    400066: OSTM-Jason2_Layered_016 [Layer7]
+    400068: OSTM-Jason2_Layered_016 [Layer8]
+    400070: OSTM-Jason2_Layered_016 [Layer9]
+    400072: //RootNode
+    2300000: OSTM-Jason2_Layered_016 [(unnamed)]
+    2300002: OSTM-Jason2_Layered_016 [Layer10]
+    2300004: OSTM-Jason2_Layered_016 [Layer11]
+    2300006: OSTM-Jason2_Layered_016 [Layer12]
+    2300008: OSTM-Jason2_Layered_016 [Layer13]
+    2300010: OSTM-Jason2_Layered_016 [Layer14]
+    2300012: OSTM-Jason2_Layered_016 [Layer15]
+    2300014: OSTM-Jason2_Layered_016 [Layer16]
+    2300016: OSTM-Jason2_Layered_016 [Layer17]
+    2300018: OSTM-Jason2_Layered_016 [Layer18]
+    2300020: OSTM-Jason2_Layered_016 [Layer19]
+    2300022: OSTM-Jason2_Layered_016 [Layer20]
+    2300024: OSTM-Jason2_Layered_016 [Layer21]
+    2300026: OSTM-Jason2_Layered_016 [Layer22]
+    2300028: OSTM-Jason2_Layered_016 [Layer23]
+    2300030: OSTM-Jason2_Layered_016 [Layer24]
+    2300032: OSTM-Jason2_Layered_016 [Layer25]
+    2300034: OSTM-Jason2_Layered_016 [Layer26]
+    2300036: OSTM-Jason2_Layered_016 [Layer27]
+    2300038: OSTM-Jason2_Layered_016 [Layer28]
+    2300040: OSTM-Jason2_Layered_016 [Layer29]
+    2300042: OSTM-Jason2_Layered_016 [Layer2]
+    2300044: OSTM-Jason2_Layered_016 [Layer30]
+    2300046: OSTM-Jason2_Layered_016 [Layer31]
+    2300048: OSTM-Jason2_Layered_016 [Layer32]
+    2300050: OSTM-Jason2_Layered_016 [Layer33]
+    2300052: OSTM-Jason2_Layered_016 [Layer34]
+    2300054: OSTM-Jason2_Layered_016 [Layer35]
+    2300056: OSTM-Jason2_Layered_016 [Layer36]
+    2300058: OSTM-Jason2_Layered_016 [Layer3]
+    2300060: OSTM-Jason2_Layered_016 [Layer4]
+    2300062: OSTM-Jason2_Layered_016 [Layer5]
+    2300064: OSTM-Jason2_Layered_016 [Layer6]
+    2300066: OSTM-Jason2_Layered_016 [Layer7]
+    2300068: OSTM-Jason2_Layered_016 [Layer8]
+    2300070: OSTM-Jason2_Layered_016 [Layer9]
+    3300000: OSTM-Jason2_Layered_016 [(unnamed)]
+    3300002: OSTM-Jason2_Layered_016 [Layer10]
+    3300004: OSTM-Jason2_Layered_016 [Layer11]
+    3300006: OSTM-Jason2_Layered_016 [Layer12]
+    3300008: OSTM-Jason2_Layered_016 [Layer13]
+    3300010: OSTM-Jason2_Layered_016 [Layer14]
+    3300012: OSTM-Jason2_Layered_016 [Layer15]
+    3300014: OSTM-Jason2_Layered_016 [Layer16]
+    3300016: OSTM-Jason2_Layered_016 [Layer17]
+    3300018: OSTM-Jason2_Layered_016 [Layer18]
+    3300020: OSTM-Jason2_Layered_016 [Layer19]
+    3300022: OSTM-Jason2_Layered_016 [Layer20]
+    3300024: OSTM-Jason2_Layered_016 [Layer21]
+    3300026: OSTM-Jason2_Layered_016 [Layer22]
+    3300028: OSTM-Jason2_Layered_016 [Layer23]
+    3300030: OSTM-Jason2_Layered_016 [Layer24]
+    3300032: OSTM-Jason2_Layered_016 [Layer25]
+    3300034: OSTM-Jason2_Layered_016 [Layer26]
+    3300036: OSTM-Jason2_Layered_016 [Layer27]
+    3300038: OSTM-Jason2_Layered_016 [Layer28]
+    3300040: OSTM-Jason2_Layered_016 [Layer29]
+    3300042: OSTM-Jason2_Layered_016 [Layer2]
+    3300044: OSTM-Jason2_Layered_016 [Layer30]
+    3300046: OSTM-Jason2_Layered_016 [Layer31]
+    3300048: OSTM-Jason2_Layered_016 [Layer32]
+    3300050: OSTM-Jason2_Layered_016 [Layer33]
+    3300052: OSTM-Jason2_Layered_016 [Layer34]
+    3300054: OSTM-Jason2_Layered_016 [Layer35]
+    3300056: OSTM-Jason2_Layered_016 [Layer36]
+    3300058: OSTM-Jason2_Layered_016 [Layer3]
+    3300060: OSTM-Jason2_Layered_016 [Layer4]
+    3300062: OSTM-Jason2_Layered_016 [Layer5]
+    3300064: OSTM-Jason2_Layered_016 [Layer6]
+    3300066: OSTM-Jason2_Layered_016 [Layer7]
+    3300068: OSTM-Jason2_Layered_016 [Layer8]
+    3300070: OSTM-Jason2_Layered_016 [Layer9]
+    4300000: OSTM-Jason2_Layered_016 [(unnamed)]
+    4300002: OSTM-Jason2_Layered_016 [Layer2]
+    4300004: OSTM-Jason2_Layered_016 [Layer3]
+    4300006: OSTM-Jason2_Layered_016 [Layer4]
+    4300008: OSTM-Jason2_Layered_016 [Layer5]
+    4300010: OSTM-Jason2_Layered_016 [Layer6]
+    4300012: OSTM-Jason2_Layered_016 [Layer7]
+    4300014: OSTM-Jason2_Layered_016 [Layer8]
+    4300016: OSTM-Jason2_Layered_016 [Layer9]
+    4300018: OSTM-Jason2_Layered_016 [Layer10]
+    4300020: OSTM-Jason2_Layered_016 [Layer11]
+    4300022: OSTM-Jason2_Layered_016 [Layer12]
+    4300024: OSTM-Jason2_Layered_016 [Layer13]
+    4300026: OSTM-Jason2_Layered_016 [Layer14]
+    4300028: OSTM-Jason2_Layered_016 [Layer15]
+    4300030: OSTM-Jason2_Layered_016 [Layer16]
+    4300032: OSTM-Jason2_Layered_016 [Layer17]
+    4300034: OSTM-Jason2_Layered_016 [Layer18]
+    4300036: OSTM-Jason2_Layered_016 [Layer19]
+    4300038: OSTM-Jason2_Layered_016 [Layer20]
+    4300040: OSTM-Jason2_Layered_016 [Layer21]
+    4300042: OSTM-Jason2_Layered_016 [Layer22]
+    4300044: OSTM-Jason2_Layered_016 [Layer23]
+    4300046: OSTM-Jason2_Layered_016 [Layer24]
+    4300048: OSTM-Jason2_Layered_016 [Layer25]
+    4300050: OSTM-Jason2_Layered_016 [Layer26]
+    4300052: OSTM-Jason2_Layered_016 [Layer27]
+    4300054: OSTM-Jason2_Layered_016 [Layer28]
+    4300056: OSTM-Jason2_Layered_016 [Layer29]
+    4300058: OSTM-Jason2_Layered_016 [Layer30]
+    4300060: OSTM-Jason2_Layered_016 [Layer31]
+    4300062: OSTM-Jason2_Layered_016 [Layer32]
+    4300064: OSTM-Jason2_Layered_016 [Layer33]
+    4300066: OSTM-Jason2_Layered_016 [Layer34]
+    4300068: OSTM-Jason2_Layered_016 [Layer35]
+    4300070: OSTM-Jason2_Layered_016 [Layer36]
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
