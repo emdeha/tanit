@@ -1,0 +1,5 @@
+C:\Users\PC\Downloads\csOrbitTools\OrbitTools\Core\bin\Debug\Zeptomoby.OrbitTools.Core.dll
+C:\Users\PC\Downloads\csOrbitTools\OrbitTools\Core\bin\Debug\Zeptomoby.OrbitTools.Core.pdb
+C:\Users\PC\Downloads\csOrbitTools\OrbitTools\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+C:\Users\PC\Downloads\csOrbitTools\OrbitTools\Core\obj\Debug\Zeptomoby.OrbitTools.Core.dll
+C:\Users\PC\Downloads\csOrbitTools\OrbitTools\Core\obj\Debug\Zeptomoby.OrbitTools.Core.pdb
