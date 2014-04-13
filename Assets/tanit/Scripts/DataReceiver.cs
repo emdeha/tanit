@@ -1,6 +1,7 @@
 ﻿using Leap;
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class DataReceiver : MonoBehaviour
 {
@@ -10,7 +11,9 @@ public class DataReceiver : MonoBehaviour
     public Controller m_leapController;
 
     private WWW satelliteData;
-    private Transform currentSatellite;
+    private int currentSatelliteIndex = 0;
+    private int maxSatelliteIndex = -1;
+    private List<Transform> satellites; 
     private const float DURATION_FOR_VALID_CIRCLE_GESTURE = 0.6f;
 
     enum Mode
@@ -25,6 +28,7 @@ public class DataReceiver : MonoBehaviour
         StartNewDownload();
         m_leapController = new Controller();
         m_leapController.EnableGesture(Gesture.GestureType.TYPECIRCLE);
+        satellites = new List<Transform>();
 	}
 
     void StartNewDownload()
@@ -59,11 +63,19 @@ public class DataReceiver : MonoBehaviour
                     Transform newSat = 
                         Instantiate(sat, satPos + earthScale, Quaternion.identity) as Transform;
                     newSat.GetComponent<SatelliteMover>().speed = 100 * satVel;
-                    currentSatellite = newSat;
+                    newSat.name = satName;
+                    satellites.Add(newSat);
+                    if (maxSatelliteIndex == -1)
+                        currentSatelliteIndex++;
+                }
+                if (maxSatelliteIndex == -1)
+                {
+                    currentSatelliteIndex--;
+                    maxSatelliteIndex = currentSatelliteIndex;
                 }
 
-                transform.position = currentSatellite.position;
-                transform.parent = currentSatellite;
+                transform.position = satellites[currentSatelliteIndex].position;
+                transform.parent = satellites[currentSatelliteIndex];
 
                 Invoke("StartNewDownload", 60);
             }
@@ -125,5 +137,16 @@ public class DataReceiver : MonoBehaviour
             Debug.LogWarning("Mode switching problem!");
         }
         Debug.Log("Switching mode!");
+    }
+
+    public void GoToNextSatellite()
+    {
+        if (currentSatelliteIndex >= maxSatelliteIndex)
+        {
+            currentSatelliteIndex = 0;
+        }
+
+        transform.position = satellites[currentSatelliteIndex++].position;
+        transform.parent = satellites[currentSatelliteIndex++];
     }
 }
