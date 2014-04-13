@@ -7,13 +7,13 @@ public class DataReceiver : MonoBehaviour
 {
     public string dataUrl = "http://localhost:52912/api/Satelites?type=json";
     public Vector3 earthScale;
-    public Transform sat;
+    public GameObject sat;
     public Controller m_leapController;
 
     private WWW satelliteData;
     private int currentSatelliteIndex = 0;
     private int maxSatelliteIndex = -1;
-    private List<Transform> satellites; 
+    private List<GameObject> satellites; 
     private const float DURATION_FOR_VALID_CIRCLE_GESTURE = 0.6f;
 
     enum Mode
@@ -28,7 +28,7 @@ public class DataReceiver : MonoBehaviour
         StartNewDownload();
         m_leapController = new Controller();
         m_leapController.EnableGesture(Gesture.GestureType.TYPECIRCLE);
-        satellites = new List<Transform>();
+        satellites = new List<GameObject>();
 	}
 
     void StartNewDownload()
@@ -60,13 +60,22 @@ public class DataReceiver : MonoBehaviour
                     //Debug.Log("pos: " + satPos.x + " " + satPos.y + " " + satPos.z);
                     //Debug.Log("speed: " + satVel.x + " " + satVel.y + " " + satVel.z);
 
-                    Transform newSat = 
-                        Instantiate(sat, satPos + earthScale, Quaternion.identity) as Transform;
+                    GameObject satToDestroy = 
+                        satellites.Find(_sat => _sat.name == satName);
+                    if (satToDestroy && satToDestroy.transform.childCount == 0)
+                    {
+                        Destroy(satToDestroy);
+                    }
+
+                    GameObject newSat = 
+                        Instantiate(sat, satPos + earthScale, Quaternion.identity) as GameObject;
                     newSat.GetComponent<SatelliteMover>().speed = 100 * satVel;
                     newSat.name = satName;
                     satellites.Add(newSat);
                     if (maxSatelliteIndex == -1)
+                    {
                         currentSatelliteIndex++;
+                    }
                 }
                 if (maxSatelliteIndex == -1)
                 {
@@ -74,10 +83,15 @@ public class DataReceiver : MonoBehaviour
                     maxSatelliteIndex = currentSatelliteIndex;
                 }
 
-                transform.position = satellites[currentSatelliteIndex].position;
+                transform.position = satellites[currentSatelliteIndex].transform.position;
                 Vector3 pos = transform.position;
                 Debug.Log("pos: " + pos.x + " " + pos.y + " " + pos.z);
-                transform.parent = satellites[currentSatelliteIndex];
+                transform.parent = satellites[currentSatelliteIndex].transform;
+                GameObject parentToDestroy =
+                    satellites.Find(_sat => 
+                            (_sat.name == satellites[currentSatelliteIndex].name) &&
+                            (_sat.transform.childCount < 0));
+                Destroy(parentToDestroy);
 
                 Invoke("StartNewDownload", 10);
             }
@@ -148,7 +162,7 @@ public class DataReceiver : MonoBehaviour
             currentSatelliteIndex = 0;
         }
 
-        transform.position = satellites[currentSatelliteIndex++].position;
-        transform.parent = satellites[currentSatelliteIndex++];
+        transform.position = satellites[currentSatelliteIndex++].transform.position;
+        transform.parent = satellites[currentSatelliteIndex++].transform;
     }
 }
