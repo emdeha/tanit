@@ -70,9 +70,8 @@ public class DataReceiver : MonoBehaviour
                         Instantiate(sat, satPos + earthScale, Quaternion.identity) as GameObject;
                     newSat.GetComponent<SatelliteMover>().speed = 100 * satVel;
                     newSat.name = satName;
-                    satellites.Add(newSat);
                     currentSatellite = newSat;
-                    Debug.Log("Assigned current sat");
+                    satellites.Add(newSat);
                 }
 
                 transform.position = currentSatellite.transform.position;
@@ -117,6 +116,12 @@ public class DataReceiver : MonoBehaviour
                 break;
             }
         }
+
+        if (Input.GetKeyDown("a"))
+        {
+            Debug.Log("Changing mode via 'a'");
+            SwitchMode();
+        }
     }
 
     void SwitchMode()
@@ -145,11 +150,9 @@ public class DataReceiver : MonoBehaviour
     public void GoToNextSatellite()
     {
         int currIdx = satellites.IndexOf(currentSatellite);
+        currIdx += 1;
         currentSatellite = 
             satellites[currIdx == -1 ? 0 : currIdx % (satellites.Count - 1)];
-
-        if (!transform) Debug.Log("CAMERA PROBLEM!");
-        if (!currentSatellite) Debug.Log("CURRENT SAT BAD!");
 
         transform.position = currentSatellite.transform.position;
         transform.parent = currentSatellite.transform;
